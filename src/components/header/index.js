@@ -4,6 +4,9 @@ import GDriveLogo from '../../media/google-drive-logo.png'
 
 import SearchIcon from '@material-ui/icons/Search';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import SettingsIcon from '@material-ui/icons/Settings';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const index = () => {
     return (
@@ -17,6 +20,11 @@ const index = () => {
                     <input type="text" />
                     <ExpandMoreIcon />
                 </div>
+            </div>
+            <div className="header__icons">
+                <HelpOutlineIcon />
+                <SettingsIcon />
+                <AccountCircleIcon />
             </div>
         </div>
     )
