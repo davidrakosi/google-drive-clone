@@ -1,26 +1,61 @@
-.header{
+.header {
     display: flex;
     height: 70px;
+    border-bottom: 1px solid rgb(145, 145, 145);
 }
 
-.header>div{
+.header>div {
     padding: 12px 12px;
 }
 
-.header__logo{
+.header__logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.header__logo>img{
+.header__logo>img {
     height: 100%;
     object-fit: contain;
 }
 
-.header__logo>span{
+.header__logo>span {
     color: gray;
     font-size: 32px;
     margin-left: 16px;
 }
 
+.header__searchContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header__searchBar {
+    width: 45%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.MuiSvgIcon-root {
+    color: rgb(111, 111, 111);
+}
+
+.header__searchBar>input {
+    flex: 1;
+    height: 60%;
+    font-size: 16px;
+    color: lightgray;
+    background: none;
+    border: none;
+    margin-left: 12px;
+}
+
+.header__searchBar>input:focus {
+    outline: none;
+    color: black;
+}

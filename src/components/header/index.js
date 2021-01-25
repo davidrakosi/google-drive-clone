@@ -8,6 +8,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import SettingsIcon from '@material-ui/icons/Settings';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import AppsIcon from '@material-ui/icons/Apps';
 
 const index = () => {
     return (
@@ -19,13 +20,14 @@ const index = () => {
             <div className="header__searchContainer">
                 <div className="header__searchBar">
                     <SearchIcon />
-                    <input type="text" />
+                    <input type="text" placeholder='Search in Drive' />
                     <ExpandMoreIcon />
                 </div>
             </div>
             <div className="header__icons">
                 <HelpOutlineIcon />
                 <SettingsIcon />
+                <AppsIcon/>
                 <AccountCircleIcon />
             </div>
         </div>
