@@ -3,7 +3,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Clever Programmer</h1>
+      {/* header */}
+        {/* search bar */}
+        {/* icons */}
+      {/* sideBar */}
+      {/* files */}
+      {/* icons right */}
     </div>
   );
 }
