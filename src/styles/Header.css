@@ -1,11 +1,11 @@
 .header {
     display: flex;
-    height: 70px;
+    height: 60px;
     border-bottom: 1px solid rgb(145, 145, 145);
 }
 
 .header>div {
-    padding: 12px 12px;
+    padding: 12px;
 }
 
 .header__logo {
@@ -21,7 +21,8 @@
 
 .header__logo>span {
     color: gray;
-    font-size: 32px;
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 16px;
 }
 
@@ -29,12 +30,13 @@
     flex: 1;
     display: flex;
     align-items: center;
+    padding: 8px;
 }
 
 .header__searchBar {
     width: 45%;
-    height: 100%;
-    border-radius: 8px;
+    height: 120%;
+    border-radius: 6px;
     background-color: rgb(237, 237, 237);
     display: flex;
     align-items: center;
@@ -42,7 +44,7 @@
 }
 
 .MuiSvgIcon-root {
-    color: rgb(111, 111, 111);
+    color: rgb(82, 82, 82);
 }
 
 .header__searchBar>input {
@@ -58,4 +60,19 @@
 .header__searchBar>input:focus {
     outline: none;
     color: black;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__icons .MuiSvgIcon-root {
+    font-size: 28px;
+    color: rgb(82, 82, 82);
+    margin: 4px;
+}
+
+.header__icons>span{
+    margin-right: 20px;
 }

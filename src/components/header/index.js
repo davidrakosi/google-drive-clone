@@ -25,9 +25,11 @@ const index = () => {
                 </div>
             </div>
             <div className="header__icons">
-                <HelpOutlineIcon />
-                <SettingsIcon />
-                <AppsIcon/>
+                <span>
+                    <HelpOutlineIcon />
+                    <SettingsIcon />
+                </span>
+                <AppsIcon />
                 <AccountCircleIcon />
             </div>
         </div>
