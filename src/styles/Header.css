@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    height: 70px;
+}
+
+.header>div{
+    padding: 12px 12px;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo>img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__logo>span{
+    color: gray;
+    font-size: 32px;
+    margin-left: 16px;
+}
+

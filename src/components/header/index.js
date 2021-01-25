@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/Header.css'
 
 import GDriveLogo from '../../media/google-drive-logo.png'
 
@@ -13,6 +14,7 @@ const index = () => {
         <div className='header'>
             <div className="header__logo">
                 <img src={GDriveLogo} alt="Google Drive" />
+                <span>Drive</span>
             </div>
             <div className="header__searchContainer">
                 <div className="header__searchBar">
