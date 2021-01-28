@@ -10,7 +10,8 @@
 }
 
 .sidebarItem__arrow{
-    width: 24px;
+    width: 28px;
+    margin-left: 12px;
 }
 
 .sidebarItem__main{
@@ -18,5 +19,5 @@
 }
 
 .sidebarItem__main>p{
-    margin-left: 4px;
+    margin-left: 12px;
 }
