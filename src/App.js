@@ -8,6 +8,7 @@ import { auth, provider } from "./firebase";
 import { useState } from 'react';
 
 function App() {
+  // const [user, setUser] = useState()
   const [user, setUser] = useState({
     displayName: "David Rakosi",
     email: "david@cleverprogrammer.com",
@@ -36,7 +37,7 @@ function App() {
       {
         user ? (
           <>
-            <Header />
+            <Header userPhoto={user.photoURL} />
             <div className="app__main">
               <Sidebar />
               {/* files */}

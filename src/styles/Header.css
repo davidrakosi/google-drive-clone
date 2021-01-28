@@ -65,6 +65,7 @@
 .header__icons {
     display: flex;
     align-items: center;
+    margin-right: -30px;
 }
 
 .header__icons .MuiSvgIcon-root {
@@ -75,4 +76,11 @@
 
 .header__icons>span{
     margin-right: 20px;
+}
+
+.header__icons>img{
+    border-radius: 50%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 5px;
 }
