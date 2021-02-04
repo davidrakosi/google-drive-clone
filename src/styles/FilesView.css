@@ -1,3 +1,9 @@
 .fileView{
     width: 100%;
 }
+
+.fileView__row{
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
