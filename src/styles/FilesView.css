@@ -7,3 +7,21 @@
     display: flex;
     align-items: center;
 }
+
+.fileView__titles{
+    display: flex;
+    margin-bottom: 5px;
+    color: rgb(85, 78, 78);
+}
+
+.fileView__titles>div>*{
+    margin: 5px;
+}
+
+.fileView__titles--left{
+    flex: 1;
+}
+
+.fileView__titles--right{
+    display: flex;
+}
