@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../../styles/NewFile.css'
 
-import PlusIcon from '../../media/new-file-plus.xml'
 import AddIcon from '@material-ui/icons/Add';
 
 import firebase from 'firebase'

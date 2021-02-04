@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header'
 import Sidebar from './components/sidebar'
 import FilesView from './components/filesView/FilesView'
+import SideIcons from './components/sideIcons'
 
 import GDriveLogo from './media/google-drive-logo.png'
 
@@ -42,7 +43,7 @@ function App() {
             <div className="app__main">
               <Sidebar />
               <FilesView />
-              {/* icons right */}
+              <SideIcons />
             </div>
           </>
         ) : (
